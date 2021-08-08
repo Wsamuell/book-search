@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "apollo-server-express": "^2.15.0",
+=======
+>>>>>>> parent of 873c60c (graphQl server is up and running, going to test for queries now)
     "bcrypt": "^4.0.1",
     "express": "^4.17.1",
     "graphql": "^15.5.0",

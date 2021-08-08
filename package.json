@@ -14,9 +14,12 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+<<<<<<< HEAD
   },
   "dependencies": {
     "apollo-server-express": "^2.15.0",
     "graphql": "^15.5.1"
+=======
+>>>>>>> parent of 873c60c (graphQl server is up and running, going to test for queries now)
   }
 }
