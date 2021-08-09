@@ -11,7 +11,7 @@ const SavedBooks = () => {
 
   const { loading, data } = useQuery(QUERY_GET_ME)
 
-  const userData = data.me
+  const userData = data?.me
 
 
 
