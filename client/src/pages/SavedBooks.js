@@ -11,7 +11,7 @@ const SavedBooks = () => {
 
   const { loading, data } = useQuery(QUERY_GET_ME)
 
-  const userData = data?.me
+  const userData = data?.me || [];
 
 
 
@@ -25,7 +25,7 @@ const SavedBooks = () => {
 
     try {
       await removeBook({
-        variables: { variables: bookId }
+        variables: { bookId }
       })
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
